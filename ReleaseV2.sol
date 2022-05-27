@@ -11,8 +11,8 @@ contract ReleaseV2{
         initialized = true;
     }
 
-    function setValue(uint256 newvalue) public {
-        value = newvalue;
+    function setValue(uint256 newValue) public {
+        value = newValue;
     }
 
     function getValue() public view returns (uint256) {
