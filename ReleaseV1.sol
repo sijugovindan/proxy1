@@ -11,11 +11,11 @@ contract ReleaseV1 {
         initialized = true;
     }
 
-    function setvalue(uint256 newvalue) public {
+    function setValue(uint256 newvalue) public {
         value = newvalue;
     }
 
-    function getvalue() public view returns (uint256) {
+    function getValue() public view returns (uint256) {
         return value;
     }
 }
